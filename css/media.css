@@ -1,0 +1,169 @@
+@media (max-width: 1270px) {
+    .wrapper {
+        max-width: 1070px;
+    }
+    .footer-wrapper {
+        max-width: 1070px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .wrapper {
+        max-width: 870px;
+    }
+
+    .idea, .story__blocks_img {
+        margin: 0 auto;
+    }
+
+    .footer-wrapper {
+        max-width: 870px;
+    }
+
+    .advantages__list {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .catalog__list {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .story__blocks {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 970px) {
+    .menu-burger {
+        display: block;
+        justify-self: end;
+    }
+
+    .nav__bottom {
+        display: none;
+    }
+
+    .nav__icon {
+        display: none;
+    }
+
+    .nav__top {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .logo {
+        text-align: left;
+
+    } 
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 565px;
+    }
+
+    .hero__wrapper {
+        display: block;
+        top: 0;
+        right: 0;
+        left: 110px;
+        z-index: 10;
+        min-width: 100%;
+        padding: 10px;
+        position: static;
+    }
+    
+    .hero {
+        background-image: url("../imgs/imgs/Frame\ 2.jpg");
+      background-size: contain;
+      background-position: 50% 100%;
+        
+    }
+
+    .hero__subtitle {
+        display: none;
+    }
+
+    .hero__title::after {
+        display: block;
+        content: "With our new collection, view over 400 bespoke pieces from homeware through to furniture today";
+        line-height: 22px;
+        font-size: 18px;
+        font-weight: 300;
+        padding-top: 18px;
+
+        
+    }
+
+    .hero__link {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 45px;
+        text-align: center;
+    }
+
+    .catalog__item img{
+        max-width: 250px;
+    }
+
+    .idea__link {
+        width: 100%;
+        text-align: center;
+        margin-top: 56px;
+    }
+
+    .story-img {
+        max-width: 390px;
+    }
+
+    .idea {
+        max-width: 390px;
+        padding: 20px;
+        
+    }
+
+    .feedback__advantages {
+        flex-direction: column;
+        justify-content: start;
+        
+    }
+
+    .feedback__advantages li {
+        text-align: left;
+    }
+    
+    .feedback__title {
+        text-align: left;
+    }
+
+    .feedback__subtitle {
+        text-align: left;
+    }
+
+    .email {
+        width: 280px;
+    }
+    
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+@media (max-width: 565px) {
+    .wrapper, .footer-wrapper {
+        max-width: 400px;
+    }
+
+    .catalog__item img {
+        max-width: 150px;
+    }
+}
